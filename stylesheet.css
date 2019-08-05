@@ -1,15 +1,105 @@
-.box {
-  background-color: orange;
-  width: 100px;
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.main-container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(0, 0, 155, 0.7);
+  position: fixed;
+}
+
+.icon {
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+}
+
+.header-title {
+  line-height: 65px;
+  /* background-color: orange; */
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  opacity: 0.7;
+  letter-spacing: 2px;
+  font-family: "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+}
+
+.top-wrapper {
+  height: 200px;
+  background-color: skyblue;
+}
+
+.main {
+  /* height: 400px; */
+  background-color: pink;
+}
+
+.main-contents {
+  width: 25%;
+  height: 300px;
+  padding-right: 10px;
+  padding-left: 10px;
+  float: left;
+  margin-bottom: 10px
+  /* background-color: black; */
+  /* border-bottom:3px bold #FFFFFF; */
+}
+
+.main-box {
+  height: 300px;
+}
+
+.message-wrapper {
   height: 100px;
-  line-height: 100px;
-  text-align: center;
+  background-color: green;
 }
 
-.text {
-  font-weight: normal;
+.red {
+  background-color: red;
 }
 
-.weight {
-  font-weight: normal;
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.clear {
+  clear: left;
+}
+
+footer {
+  height: 50px;
+  background-color: orange;
+}
+
+@media (max-width: 1000px){
+  .main-contents {
+    width: 50%;
+  }
+}
+
+@media (max-width: 670px){
+  .main-contents {
+    width: 100%;
+  }
 }
