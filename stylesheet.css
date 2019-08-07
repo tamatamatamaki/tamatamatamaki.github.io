@@ -1,14 +1,5 @@
-* {
-  box-sizing: border-box;
-}
-
 .container {
   width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-.main-container {
-  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -16,90 +7,69 @@
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(0, 0, 155, 0.7);
   position: fixed;
-}
-
-.icon {
-  border-radius: 50%;
-  float: left;
-  margin-right: 20px;
-}
-
-.header-title {
-  line-height: 65px;
-  /* background-color: orange; */
-  font-size: 30px;
-  font-weight: bold;
-  color: white;
-  opacity: 0.7;
-  letter-spacing: 2px;
-  font-family: "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+  z-index: 10;
+  background-color: rgba(146, 29, 209, 0.8);
 }
 
 .top-wrapper {
-  height: 200px;
+  height: 500px;
+  width: 100%;
   background-color: skyblue;
+  background-image: url("backGra.png");
+  background-size: cover;
+  text-align: center;
 }
 
-.main {
-  /* height: 400px; */
-  background-color: pink;
-}
-
-.main-contents {
-  width: 25%;
-  height: 300px;
-  padding-right: 10px;
-  padding-left: 10px;
-  float: left;
-  margin-bottom: 10px
-  /* background-color: black; */
-  /* border-bottom:3px bold #FFFFFF; */
-}
-
-.main-box {
-  height: 300px;
+.main-wrapper {
+  height: 600px;
+  width: 100%;
+  background-color: green;
 }
 
 .message-wrapper {
-  height: 100px;
-  background-color: green;
-}
-
-.red {
-  background-color: red;
-}
-
-.blue {
-  background-color: blue;
-}
-
-.yellow {
-  background-color: yellow;
-}
-
-.green {
-  background-color: green;
-}
-
-.clear {
-  clear: left;
+  height: 200px;
+  width: 100%;
+  background-color: orange;
 }
 
 footer {
   height: 50px;
-  background-color: orange;
+  width: 100%;
+  background-color: #CCFFFF;
 }
 
-@media (max-width: 1000px){
-  .main-contents {
-    width: 50%;
-  }
+#icon {
+  border-radius: 50%;
+  float: left;
 }
 
-@media (max-width: 670px){
-  .main-contents {
-    width: 100%;
-  }
+.heading {
+  /* background-color: red; */
+  margin: 0;
+  float: left;
+}
+
+ul {
+  float: right;
+  list-style: none;
+}
+
+li {
+  float: left;
+  margin-left: 20px;
+}
+
+#topTitle {
+  margin-top: 0;
+}
+
+#top-box {
+  padding-top: 200px;
+}
+
+.top-title {
+  color: white;
+  letter-spacing: 8px;
+  font-size: 50px;
 }
