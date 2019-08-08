@@ -12,22 +12,3 @@ $(function() {
     }
   )
 });
-
-
-// function() {
-  //   $(this).css('font-size','30px');
-  // },
-  // function() {
-    //   $(this).css('font-size'.'24px');
-    // }
-
-
-
-
-
-                // function() {
-                  //     $(this).css('color','red');
-                  //   },
-                  //   function() {
-                    //       $(this).css('color','white');
-                    //     }
