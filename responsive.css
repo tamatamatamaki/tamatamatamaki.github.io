@@ -1,5 +1,23 @@
 @media(max-width: 1000px) {
   .top-title {
+    display: none;
+  }
+  .top-title-tab {
+    display: block;
+  }
+}
+
+@media(max-width: 670px) {
+  .top-title-tab {
+    display: none;
+  }
+  .top-title-smart {
+    display: block;
+  }
+}
+
+/* @media(max-width: 1000px) {
+  .top-title {
     font-size: 30px;
   }
 }
@@ -8,4 +26,4 @@
   .top-title {
     font-size: 20px;
   }
-}
+} */
