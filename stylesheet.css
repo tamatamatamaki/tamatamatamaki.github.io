@@ -107,4 +107,5 @@ top-title-first {
 
 .btn:hover {
   opacity: 1;
+  border-color: navy;
 }
