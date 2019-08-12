@@ -14,16 +14,11 @@
   .top-title-smart {
     display: block;
   }
-}
 
-/* @media(max-width: 1000px) {
-  .top-title {
-    font-size: 30px;
+  .fas.header-bars {
+    display: inline;
+  }
+  ul {
+    display: none;
   }
 }
-
-@media(max-width: 670px) {
-  .top-title {
-    font-size: 20px;
-  }
-} */
