@@ -61,6 +61,12 @@ li {
   margin-right: 20px;
 }
 
+.fas.header-bars {
+  float: right;
+  display: none;
+  font-size: 50px;
+}
+
 top-title-first {
   margin-top: 0;
 }
