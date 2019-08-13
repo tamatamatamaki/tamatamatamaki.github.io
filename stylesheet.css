@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   width: 100%;
   /* padding: 0 15px; */
@@ -43,6 +48,7 @@ footer {
 #icon {
   border-radius: 50%;
   float: left;
+  margin-left: 5px;
 }
 
 .heading {
@@ -54,21 +60,34 @@ footer {
 ul {
   float: right;
   list-style: none;
+  line-height: 65px;
 }
 
 li {
   float: left;
   margin-right: 20px;
+  display: inline-block;
+  /* line-height: 65px; */
+}
+
+li:hover {
+  cursor: pointer;
 }
 
 .fas.header-bars {
   float: right;
   display: none;
   font-size: 50px;
+  line-height: 65px;
+  margin-right: 20px;
+  color: white;
+  background-color: rgba(0, 43, 63, 0.6);
+  padding: 0 15px;
+  border-radius: 15px;
 }
 
-top-title-first {
-  margin-top: 0;
+.fas.header-bars:hover {
+  cursor: pointer;
 }
 
 #top-box {
