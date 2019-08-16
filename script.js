@@ -11,6 +11,7 @@ $(function() {
       }, 300);
     }
   )
+
   $('.top-title-tab').hover(
     function() {
       $(this).animate({
@@ -23,6 +24,7 @@ $(function() {
       }, 300);
     }
   )
+
   $('.top-title-smart').hover(
     function() {
       $(this).animate({
@@ -35,4 +37,12 @@ $(function() {
       }, 300);
     }
   )
+
+  $('.header-bars').click(function() {
+    $('.modal-wrapper').fadeIn();
+  })
+
+  $('.modal-wrapper').click(function() {
+    $(this).fadeOut();
+  })
 });
