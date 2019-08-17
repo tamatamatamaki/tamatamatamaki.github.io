@@ -39,10 +39,11 @@ $(function() {
   )
 
   $('.header-bars').click(function() {
-    $('.modal-wrapper').fadeIn();
+    $('.modal-wrapper').addClass('modal-active');
+    // $('body').css('right':'200px')
   })
 
   $('.modal-wrapper').click(function() {
-    $(this).fadeOut();
+    $(this).removeClass('modal-active');
   })
 });
